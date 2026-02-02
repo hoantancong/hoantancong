@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hoàn Tấn Công - Giới thiệu Cá nhân</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="container">
+            <div class="logo">HTC</div>
+            <ul class="nav-links">
+                <li><a href="#home" class="nav-link">Trang chủ</a></li>
+                <li><a href="#projects" class="nav-link">Công việc</a></li>
+                <li><a href="#blog" class="nav-link">Blog</a></li>
+                <li><a href="#contact" class="nav-link">Liên hệ</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="container">
+            <div class="hero-content">
+                <h1>Xin chào! Tôi là Hoàn Tấn Công</h1>
+                <p>Lập trình viên Full Stack | Thiết kế Web | Giải pháp số</p>
+                <a href="#projects" class="btn btn-primary">Xem công việc</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="projects">
+        <div class="container">
+            <h2>Các Công Việc Hiện Tại</h2>
+            <div class="projects-grid">
+                <div class="project-card">
+                    <div class="project-header">
+                        <h3>Dự án 1: Hệ thống quản lý bán hàng</h3>
+                    </div>
+                    <p>Xây dựng nền tảng thương mại điện tử với các tính năng quản lý sản phẩm, đơn hàng và khách hàng.</p>
+                    <div class="project-tags">
+                        <span class="tag">React</span>
+                        <span class="tag">Node.js</span>
+                        <span class="tag">MongoDB</span>
+                    </div>
+                </div>
+
+                <div class="project-card">
+                    <div class="project-header">
+                        <h3>Dự án 2: Ứng dụng theo dõi công việc</h3>
+                    </div>
+                    <p>Ứng dụng web giúp người dùng quản lý nhiệm vụ, lên kế hoạch và theo dõi tiến độ dự án.</p>
+                    <div class="project-tags">
+                        <span class="tag">Vue.js</span>
+                        <span class="tag">Firebase</span>
+                        <span class="tag">Tailwind CSS</span>
+                    </div>
+                </div>
+
+                <div class="project-card">
+                    <div class="project-header">
+                        <h3>Dự án 3: Nền tảng học trực tuyến</h3>
+                    </div>
+                    <p>Phát triển hệ thống học tập trực tuyến với các tính năng video, bài tập và đánh giá.</p>
+                    <div class="project-tags">
+                        <span class="tag">Python</span>
+                        <span class="tag">Django</span>
+                        <span class="tag">PostgreSQL</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Blog Section -->
+    <section id="blog" class="blog">
+        <div class="container">
+            <h2>Bài Viết Blog</h2>
+            <div class="blog-grid">
+                <article class="blog-card">
+                    <h3>Bắt đầu với React: Hướng dẫn toàn diện</h3>
+                    <p class="blog-date">15 tháng 1, 2026</p>
+                    <p class="blog-excerpt">Hướng dẫn chi tiết về cách bắt đầu học React, từ cơ bản đến nâng cao. Khám phá hooks, state management và best practices.</p>
+                    <a href="#" class="blog-link">Đọc thêm →</a>
+                </article>
+
+                <article class="blog-card">
+                    <h3>10 mẹo tối ưu hiệu suất website</h3>
+                    <p class="blog-date">10 tháng 1, 2026</p>
+                    <p class="blog-excerpt">Những chiến lược hiệu quả để tăng tốc độ tải trang, cải thiện SEO và trải nghiệm người dùng.</p>
+                    <a href="#" class="blog-link">Đọc thêm →</a>
+                </article>
+
+                <article class="blog-card">
+                    <h3>Lập trình không lỗi: Best Practices 2026</h3>
+                    <p class="blog-date">5 tháng 1, 2026</p>
+                    <p class="blog-excerpt">Tìm hiểu các phương pháp, công cụ và quy trình để viết code sạch, bảo trì được và không có lỗi.</p>
+                    <a href="#" class="blog-link">Đọc thêm →</a>
+                </article>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact">
+        <div class="container">
+            <h2>Thông Tin Liên Hệ</h2>
+            <div class="contact-content">
+                <div class="contact-info">
+                    <div class="info-item">
+                        <h3>Email</h3>
+                        <a href="mailto:contact@example.com">contact@example.com</a>
+                    </div>
+                    <div class="info-item">
+                        <h3>Điện thoại</h3>
+                        <a href="tel:+84123456789">+84 (123) 456-789</a>
+                    </div>
+                    <div class="info-item">
+                        <h3>Địa chỉ</h3>
+                        <p>Hà Nội, Việt Nam</p>
+                    </div>
+                </div>
+                <form class="contact-form">
+                    <input type="text" placeholder="Tên của bạn" required>
+                    <input type="email" placeholder="Email của bạn" required>
+                    <textarea placeholder="Tin nhắn của bạn" rows="5" required></textarea>
+                    <button type="submit" class="btn btn-primary">Gửi tin nhắn</button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <p>&copy; 2026 Hoàn Tấn Công. Tất cả quyền được bảo lưu.</p>
+            <div class="social-links">
+                <a href="#" title="GitHub">GitHub</a>
+                <a href="#" title="LinkedIn">LinkedIn</a>
+                <a href="#" title="Twitter">Twitter</a>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
